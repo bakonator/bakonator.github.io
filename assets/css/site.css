@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+h2 {
+    padding-top: 245px;
+    padding-bottom: 30px;
+    font-size: 50px;
+
+}
+
+button {
+    border: 1px solid red;
+    border-radius: 300px;
+    padding: 15px;
+    text-transform: uppercase;
+    background: red;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    z-index: 10000;
+
+    transition: all 0.1s ease;;
+}
