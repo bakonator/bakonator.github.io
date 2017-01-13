@@ -17,6 +17,10 @@ Em = {
 
 	init: function( ) {
 		switch(window.location.href.substr(window.location.href.lastIndexOf('/') + 1)) {
+			case '':
+		        Em.homeGenerate();
+		        $('#tellMe').on('click', Em.rollTheDice);
+		        break;
 		    case 'index.html':
 		        Em.homeGenerate();
 		        $('#tellMe').on('click', Em.rollTheDice);
